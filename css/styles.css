@@ -225,7 +225,11 @@ ul {
     
 /*#endregion*/
 
+/*#region Hero*/
 .hero {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     background-color: #FFB8CA;
     height: 502px;
@@ -323,8 +327,11 @@ color: #D41443;
 }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
     .hero {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
         height: 416px;
         background-image: url(/img/slider-pic7\ 1.png), url(/img/slider-pic4\ 1.png), url(/img/Ellipse\ 3.png), url(/img/slider-pic5\ 1.png), url(/img/arrow-right\ 3.png);
 
@@ -366,6 +373,9 @@ top: 287px;
 
 @media screen and (min-width: 1200px) {
 .hero {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
         height: 664px;
         background-image: url(/img/slider-pic7\ 1.png), url(/img/slider-pic4\ 1.png), url(/img/Ellipse\ 3.png), url(/img/slider-pic5\ 1.png), url(/img/arrow-right\ 3.png);
 
@@ -397,3 +407,9 @@ width: 200px;
 height: 78px;
 }
 }
+
+/*#endregion*/
+
+/*#region Menu modal*/
+
+/*#endregion*/
