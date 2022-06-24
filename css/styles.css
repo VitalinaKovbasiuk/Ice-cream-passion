@@ -234,7 +234,7 @@ ul {
     background-color: #FFB8CA;
     height: 502px;
 width: 100%;
-background-image: url(../img/slider-pic7\ 1.png), url(../img/Ellipse\ 3.png);
+background-image: url('../img/slider-pic7\ 1.png'), url('../img/Ellipse\ 3.png');
 
 background-size: 171px, 410px, 346px, 344px, cover;
 background-repeat: no-repeat;
@@ -333,7 +333,7 @@ color: #D41443;
         margin-left: auto;
         margin-right: auto;
         height: 416px;
-        background-image: url(../img/slider-pic7\ 1.png), url(../img/slider-pic4\ 1.png), url(../img/Ellipse\ 3.png), url(../img/slider-pic5\ 1.png), url(../img/arrow-right\ 3.png);
+        background-image: url('../img/slider-pic7\ 1.png'), url('../img/slider-pic4\ 1.png'), url('../img/Ellipse\ 3.png'), url('../img/slider-pic5\ 1.png'), url('../img/arrow-right\ 3.png');
 
 background-size: 143px, 190px, 335px, 154px, 18px, cover;
 background-repeat: no-repeat;
@@ -377,7 +377,7 @@ top: 287px;
     margin-left: auto;
     margin-right: auto;
         height: 664px;
-        background-image: url(../img/slider-pic7\ 1.png), url(../img/slider-pic4\ 1.png), url(../img/Ellipse\ 3.png), url(../img/slider-pic5\ 1.png), url(../img/arrow-right\ 3.png);
+        background-image: url('../img/slider-pic7\ 1.png'), url('../img/slider-pic4\ 1.png'), url('../img/Ellipse\ 3.png'), url('../img/slider-pic5\ 1.png'), url('../img/arrow-right\ 3.png');
 
 background-size: 236px, 304px, 543px, 213px, 26px, cover;
 background-repeat: no-repeat;
@@ -401,6 +401,7 @@ font-size: 58px;
 .hero__item { 
     font-size: 14px;
 line-height: 140%;
+position: absolute;
 left: 229px;
 top: 456px;
 width: 200px;
